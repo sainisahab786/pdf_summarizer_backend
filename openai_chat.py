@@ -20,13 +20,11 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "http://localhost:3002",
+    "http://localhost:3001",
     "https://yourdomain.com",
     "*"
 ]
-
-
-
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,        # Allows requests from these origins
