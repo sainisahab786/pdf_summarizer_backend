@@ -61,7 +61,8 @@ KEYWORDS = [
     "Dividend on shares",
     "(Profit)/Loss on Sale/Disposal of Property, Plant & Equipment's",
     "Dividend on shares",
-    "Dividend & Misc. Income"    
+    "Dividend & Misc. Income",
+    "Provision for Gratuity & Other Benefits"    
 ]
 
 @app.get("/")
