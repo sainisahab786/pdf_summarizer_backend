@@ -14,7 +14,6 @@ import pytesseract
 # Initialize FastAPI app
 app = FastAPI(title="PDF Table Extraction using PaddleOCR")
 
-
 POPPLER_PATH = r"C:\Users\Omkar\Downloads\Release-24.08.0-0 (1)\poppler-24.08.0\Library\bin"
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 

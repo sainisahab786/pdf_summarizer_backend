@@ -15,7 +15,12 @@ import time
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 app = FastAPI()
-# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+
+
+import shutil
+print("Tesseract path:", shutil.which("tesseract"))
+
 
 origins = [
     "http://localhost",
