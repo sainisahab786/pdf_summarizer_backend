@@ -18,7 +18,7 @@ import concurrent.futures
 app = FastAPI()
 
 # Set Tesseract OCR Path (If on Windows)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Allowed Origins for CORS
 origins = [
