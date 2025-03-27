@@ -20,11 +20,12 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 origins = [
     "http://localhost",
     "http://localhost:3000",
-    "http://localhost:3002",
-    "http://localhost:3001",
     "https://yourdomain.com",
     "*"
 ]
+
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,        # Allows requests from these origins
@@ -61,8 +62,7 @@ KEYWORDS = [
     "Dividend on shares",
     "(Profit)/Loss on Sale/Disposal of Property, Plant & Equipment's",
     "Dividend on shares",
-    "Dividend & Misc. Income",
-    "Provision for Gratuity & Other Benefits"    
+    "Dividend & Misc. Income"    
 ]
 
 @app.get("/")
