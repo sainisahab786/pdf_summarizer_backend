@@ -21,7 +21,8 @@ origins = [
     "http://localhost",
     "http://localhost:3000",
     "https://yourdomain.com",
-    "*"
+    "*",
+    "https://tangerine-madeleine-78e362.netlify.app/"
 ]
 
 
